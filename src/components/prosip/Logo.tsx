@@ -1,10 +1,10 @@
-import logoAsset from "@/assets/prosip-logo.jpeg.asset.json";
+import logoAsset from "@/assets/prosip-logo.jpeg";
 
 export function ProsipLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`inline-flex items-center gap-3 ${className}`}>
       <img
-        src={logoAsset.url}
+        src={logo}
         alt="PrOsip logo"
         className="h-10 w-10 rounded-full object-cover ring-1 ring-yellow-500/40"
       />
