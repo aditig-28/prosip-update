@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/prosip-logo.jpeg";
+import logo from "@/assets/prosip-logo.jpeg";
 
 export function ProsipLogo({ className = "" }: { className?: string }) {
   return (
